@@ -27,6 +27,9 @@ export const Yelp = {
           })
         )
       }
+      else{
+        alert("No location found");
+      }
     })
   }
 };
